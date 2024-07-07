@@ -2,7 +2,7 @@ import java.io.*;
 import java.lang.*;
 import java.util.Scanner;
 
-class fibo
+class fibonacci
 {
 	public static void main(String args[])
 	{
