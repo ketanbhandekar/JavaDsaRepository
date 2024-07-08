@@ -2,7 +2,7 @@ import java.io.*;
 import java.lang.*;
 import java.util.Scanner;
 
-class fact
+class factorial
 {
 	public static void main(String args[])
 	{
