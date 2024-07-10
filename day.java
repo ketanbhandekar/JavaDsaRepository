@@ -71,7 +71,7 @@ class day
 			}
 			default:
 			{
-				System.out.println("INVALID");
+				System.out.println("INVALID DAY");
 
 				break;
 			}
