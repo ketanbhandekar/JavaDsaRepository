@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 class kb
 {
-	int sum=0;
-	int rem=0;
-	int x=0;
-
 	public void arm()
 	{
 		Scanner sc=new Scanner(System.in);
 		int no=sc.nextInt();
 
+		int sum=0;
+		int rem=0;
+		int x=0;
+		
 		x=no;
 
 		while(no>0)
