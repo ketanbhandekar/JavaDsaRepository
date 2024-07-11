@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 class kb
 {
-	public void arm(int no)
+	int sum=0;
+	int rem=0;
+	int x=0;
+
+	public void arm()
 	{
-		int sum=0;
-		int rem=0;
-		int x=0;
+		Scanner sc=new Scanner(System.in);
+		int no=sc.nextInt();
 
 		x=no;
 
@@ -32,11 +35,8 @@ class armstrongf
 {
 	public static void main(String args[])
 	{
-		Scanner sc=new Scanner(System.in);
-		int no=sc.nextInt();
-
 		kb obj=new kb();
 
-		obj.arm(no);
+		obj.arm();
 	}
 }
