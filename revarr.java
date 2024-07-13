@@ -61,3 +61,44 @@ class revarr
 // 		System.out.println(Arrays.toString(arr));
 // 	}
 // }
+
+
+
+		// ENHANCE TWO POINTER METHOD
+
+
+// import java.io.*;
+// import java.lang.*;
+// import java.util.Arrays;
+
+// class revarray //Swap Values in an Array
+// {
+// 	static int[]arr={1,2,3,4,5};
+
+// 	static void swap(int index1, int index2)
+// 	{
+//  		int temp=arr[index1];
+//  		arr[index1]=arr[index2];
+//  		arr[index2]=temp;
+//  	}
+//  	static void reverse()
+//  	{
+//  		int start=0;
+//  		int end=arr.length-1;
+
+//  		while(start<end)
+// 		{
+//  			swap(start,end);
+//  			start++;
+//  			end--;
+//  		}
+//  		System.out.println(Arrays.toString(arr));
+//  	}
+//  	public static void main(String args[])
+// 	{
+// 		revarray obj=new revarray();
+
+// 		obj.reverse();
+//  		//swap(arr,0,4);
+//  	}
+//  }
