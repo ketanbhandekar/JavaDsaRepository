@@ -2,7 +2,7 @@ import java.io.*;
 import java.lang.*;
 import java.util.Arrays;
 
-class max1
+class max1	//Max Value From Array
 {
 	public void max()
 	{
