@@ -20,15 +20,11 @@ class linear 								//Normal Linear Searching With Target Value
 
 				return 1;  				//return true;	//return index;
 			}
-			else
-			{
-				System.out.println("TARGET ELEMENT NOT FOUND");	
-				
-				return 0;				//return -1;
-			}
 		}
-		return 0;						//return false;
-	}
+		System.out.println("TARGET ELEMENT NOT FOUND");	
+				
+		return 0;						//return -1;
+	}						//return false;
 	public static void main(String args[])
 	{
 		linear obj=new linear();
