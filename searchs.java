@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-class searchs 												//Search In String
+class searchs 								//Search In String
 {
 	public boolean search()
 	{
