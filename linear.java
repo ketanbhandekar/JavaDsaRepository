@@ -18,12 +18,12 @@ class linear 								//Normal Linear Searching With Target Value
 			{
 				System.out.println("TARGET ELEMENT FOUND AT INDEX: " +index);
 
-				return 1;  				//return true;	//return index;
+				return 1;  				//return true;		//return index;
 			}
 		}
 		System.out.println("TARGET ELEMENT NOT FOUND");	
 				
-		return 0;						//return -1;	//return false;
+		return 0;						//return false;  	//return -1;
 	}										
 	public static void main(String args[])
 	{
