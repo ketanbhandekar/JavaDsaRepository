@@ -33,4 +33,12 @@ class linear 								//Normal Linear Searching With Target Value
 	}
 }
 
+//The error in your code is that the loop will only iterate once due to the return statements inside the loop. 
+//Specifically, the return 0 statement within the else block will terminate the search method during the first 
+//iteration if the target element is not found. This prevents the loop from checking the rest of the elements in the array.
+
+//To fix this, you should move the return 0 statement outside the loop so that it only returns 0 after the 
+//loop has been completed and the target element has not been found. Additionally, you should remove the
+//"TARGET ELEMENT NOT FOUND" message from the loop and print it only if the target element is not found after 
+//the loop finishes.
 
