@@ -26,3 +26,34 @@ class fibonacci
 		System.out.println(b);
 	}
 }
+
+import java.io.*;
+import java.lang.*;
+import java.util.Scanner;
+
+class fibo
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("ENTER A NUMBER: ");
+
+		int no=sc.nextInt();
+
+		int a=0;
+		int b=1;
+
+		System.out.println(a);
+		System.out.println(b);
+
+		for(int i=1;i<=no;i++)
+		{
+			int temp=a+b;
+			a=b;
+			b=temp;
+
+			System.out.println(temp);
+		}
+	}
+}
