@@ -73,15 +73,15 @@ class revarr
 
 // class revarray //Swap Values in an Array
 // {
-// 	static int[]arr={1,2,3,4,5};
+// 	(static) int[]arr={1,2,3,4,5};
 
-// 	static void swap(int index1, int index2)
+// 	(static) public void swap(int index1, int index2)
 // 	{
 //  		int temp=arr[index1];
 //  		arr[index1]=arr[index2];
 //  		arr[index2]=temp;
 //  	}
-//  	static void reverse()
+//  	(static) public void reverse()
 //  	{
 //  		int start=0;
 //  		int end=arr.length-1;
