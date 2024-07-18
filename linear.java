@@ -3,7 +3,7 @@ import java.lang.*;
 
 class linear 								//Normal Linear Searching With Target Value
 {
-	public int search()						//public boolean search()
+	public int search()			//public void search()			//public boolean search()
 	{
 		int arr[]={23,45,1,2,8,19,-3,16,-11,28};
 
@@ -17,7 +17,7 @@ class linear 								//Normal Linear Searching With Target Value
 			{
 				System.out.println("TARGET ELEMENT FOUND AT INDEX: " +index);
 
-				return 1;  				//return true;		//return index;
+				return 1;  		//no return for void		//return true;		//return index;
 			}
 		}
 		System.out.println("TARGET ELEMENT NOT FOUND");	
