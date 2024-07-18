@@ -7,6 +7,8 @@ class minlin
 	{
 		int arr[]={1,9,3,22,4};
 
+		//Imagine that arr is not empty					//(Starts From 0th Element OR
+										//Starts From 0th Row)
 		int min=arr[0];
 
 		for(int i=0;i<arr.length;i++)
