@@ -10,7 +10,7 @@ class max1	//Max Value From Array
 
 		//Imagine that arr is not empty
 		int maxval=arr[0];		//int max=0;			//(Starts From 0th Element OR
-								//Starts From 0th Row)
+										//Starts From 0th Row)
 		for(int i=0;i<arr.length;i++)
 		{
 			if(arr[i]>maxval)
