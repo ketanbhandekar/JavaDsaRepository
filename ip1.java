@@ -2,7 +2,7 @@ import java.io.*;
 import java.lang.*;
 import java.util.Scanner;
 
-class ip1
+class ip1				//TAKING THE INPUT
 {
 	public void input()
 	{
