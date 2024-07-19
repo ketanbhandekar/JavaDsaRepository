@@ -5,10 +5,10 @@ class wealth
 {
 	public void money()
 	{
-		int accounts [][]={
-						  {1,2,3},
-						  {3,2,2},
-				  	      };
+		int accounts [][]=	{
+					   {1,2,3},
+					   {3,2,2},
+				  	 };
 		int ans=0;
 
 		for(int person=0;person<accounts.length;person++)
