@@ -13,7 +13,7 @@ class binarysearch
 
 		int end=arr.length-1;
 
-		while(start<=end)
+		while(start<=end)			//for(int i=start;i<=arr.length-1;i++)
 		{
 			int mid=start+(end-start)/2;
 
