@@ -3,7 +3,7 @@ import java.lang.*;
 
 class ceilingbs
 {
-	//return the index of smalled no >= target
+	//return the index of smallest no >= target
 	public void search()
 	{
 		int arr[]={2,3,5,9,14,16,18};
