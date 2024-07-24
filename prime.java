@@ -50,16 +50,18 @@ class prime
 		Scanner sc=new Scanner(System.in);
 
 		int no=sc.nextInt();
-		int cnt=0;
+		int cnt=0;				//Initializes a counter variable cnt to zero, which will be used 
+							//to count the number of divisors of the input number.
 
 		for(int i=1;i<=no;i++)
 		{
-			if(no%i==0)
+			if(no%i==0)			//Checks if no is divisible by i(i.e., the remainder when no is divided by i is zero)
 			{
 				cnt++;
 			}
 		}
-		if(cnt==2)
+		if(cnt==2)				//Checks if cnt is equal to 2, which would mean the number has exactly
+							//two divisors (1 and itself), indicating it is a prime number.
 		{
 			System.out.println("PRIME NUMBER");
 		}
