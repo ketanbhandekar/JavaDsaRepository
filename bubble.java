@@ -12,7 +12,7 @@ class bubble
 		{		// i is counter only.
 			for(int j=1;j<arr.length-1;j++)	//The Second for loop (inner for loop) is used to traverse the array and swap elements if necessary
 			{
-				if(arr[j]<arr[j-1])
+				if(arr[j]<arr[j-1])	// (j-1)-> Previous Elemet
 				{
 					int temp=arr[j];
 					arr[j]=arr[j-1];
