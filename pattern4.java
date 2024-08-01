@@ -12,7 +12,7 @@ class pattern4
 		{
 			for(col=1;col<=row;col++)
 			{
-				System.out.print(col );
+				System.out.print(col);
 			}
 			System.out.println();
 		}
