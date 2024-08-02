@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-class pattern7
+class pattern6
 {
 	public void pat()
 	{
@@ -27,7 +27,7 @@ class pattern7
 	}
 	public static void main(String args[])
 	{
-		pattern7 obj=new pattern7();
+		pattern6 obj=new pattern6();
 
 		obj.pat();
 	}
