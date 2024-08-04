@@ -38,3 +38,20 @@ class recursion1
 		obj.message();
 	}
 }
+
+
+class k
+{
+    public void print()
+    {
+        System.out.println("ketan");
+        
+        print();
+    }
+    public static void main(String args[])
+    {
+        k obj=new obj();
+        
+        obj.print();
+    }
+}
