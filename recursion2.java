@@ -21,3 +21,28 @@ class recursion2
 		obj.print(1);
 	}
 }
+
+
+
+
+import java.io.*;
+
+class RecursionWithoutPassingValue {
+    // Class-level variable to keep track of the current number
+    private int currentNumber = 1;
+
+    public void print() {
+        if (currentNumber == 5) {
+            System.out.println(currentNumber);
+            return;
+        }
+        System.out.println(currentNumber);
+        currentNumber++;
+        print();
+    }
+
+    public static void main(String args[]) {
+        RecursionWithoutPassingValue obj = new RecursionWithoutPassingValue();
+        obj.print();
+    }
+}
