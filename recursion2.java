@@ -28,8 +28,8 @@ class recursion2
 import java.io.*;
 
 class RecursionWithoutPassingValue {
-    // Class-level variable to keep track of the current number
-    private int currentNumber = 1;
+    // Class-level variable to keep track of the current number (with original value private is not needed)
+    private int currentNumber = 1;				
 
     public void print() {
         if (currentNumber == 5) {
