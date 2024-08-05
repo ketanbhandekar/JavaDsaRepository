@@ -12,7 +12,7 @@ class recursion2
 			return;
 		}
 		System.out.println(n);
-		print(n+1);				//tail recursion.
+		print(n+1);				//Tail Recursion. (Last Function Call)
 	}
 	public static void main(String args[])
 	{
