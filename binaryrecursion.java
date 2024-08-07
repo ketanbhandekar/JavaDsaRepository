@@ -10,15 +10,18 @@ class binaryrecursion
 	{
 		int mid=start+(end-start)/2;
 
-		if(arr[mid]==target)
+		if(target<arr[mid])							//END CONDITION
 		{
-			System.out.println("TARGET FOUND: "+ arr[mid]);
+			return search(arr,target,start,mid-1);					
 		}
-		if(target<arr[mid])
+		else if(target>arr[mid])						//START CONDITION
 		{
-			return search(arr,target,start,mid-1);
+			return search(arr,target,mid+1,end);
 		}
-		return search(arr,target,mid+1,end);
+		else
+		{
+			return mid;
+		}
 	}
 	public static void main(String args[])
 	{
