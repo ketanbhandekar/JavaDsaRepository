@@ -17,7 +17,7 @@ class nto1recur
 	{
 		nto1recur obj=new nto1recur();
 
-		obj.num(10);
+		obj.num(5);
 	}
 }
-
+		// 5 4 3 2 1 
