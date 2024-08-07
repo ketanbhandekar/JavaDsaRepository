@@ -10,13 +10,13 @@ class binaryrecursion
 	{
 		int mid=start+(end-start)/2;
 
-		if(target<arr[mid])							//END CONDITION
-		{
-			return search(arr,target,start,mid-1);					
-		}
-		else if(target>arr[mid])						//START CONDITION
+		if(target>arr[mid])						//START CONDITION
 		{
 			return search(arr,target,mid+1,end);
+		}
+		else if(target<arr[mid])
+		{
+			return search(arr,target,start,mid-1);			//END CONDITION
 		}
 		else
 		{
