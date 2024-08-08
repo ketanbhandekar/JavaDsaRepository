@@ -5,13 +5,13 @@ class OneToNToOneRecur
 {
 	public void num(int n)
 	{
-		if(n==6)
+		if(n==6)					//if(n==0)
 		{
 			return;
 		}
-		System.out.println(n);
+		System.out.println(n);				//num(n-1);
 
-		num(n+1);
+		num(n+1);					//System.out.println(n);
 	}
 	public void num1(int n)
 	{
