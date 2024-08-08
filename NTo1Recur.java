@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-class nto1recur
+class NTo1Recur
 {
 	public void num(int n)
 	{
@@ -15,7 +15,7 @@ class nto1recur
 	}
 	public static void main(String args[])
 	{
-		nto1recur obj=new nto1recur();
+		NTo1Recur obj=new NTo1Recur();
 
 		obj.num(5);
 	}
