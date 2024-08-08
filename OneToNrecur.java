@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-class onetonrecur
+class OneToNrecur
 {
 	public void num(int n)
 	{
@@ -15,7 +15,7 @@ class onetonrecur
 	}
 	public static void main(String args[])
 	{
-		onetonrecur obj=new onetonrecur();
+		OneToNrecur obj=new OneToNrecur();
 
 		obj.num(1);
 	}
