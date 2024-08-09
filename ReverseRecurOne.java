@@ -1,6 +1,6 @@
 import java.io.*;
 import java.lang.*;
-
+								
 class main
 {
 	public static void Reverse(int num)
@@ -10,7 +10,7 @@ class main
         {
             System.out.println(num);
 
-         	return;
+            return;
         }
         else
         {
@@ -20,7 +20,6 @@ class main
             Reverse(num / 10);
         }
     }
-    // driver code
     public static void main(String args[])
     {
         // number to be reversed
@@ -30,6 +29,36 @@ class main
         // calling recursive function to print the number in reversed form
         Reverse(num);
     }
+}
+
+
+
+import java.io.*;
+import java.lang.*;
+
+class ReverseRecurOne							//KUNAL
+{
+	static int rev=0;
+
+	static void rev1(int no)
+	{
+		if(no==0)
+		{
+			return;
+		}
+		int rem=no%10;
+		rev=rev*10+rem;
+
+		rev1(no/10);
+	}
+	public static void main(String args[])
+	{
+		ReverseRecurOne obj=new ReverseRecurOne();
+
+		rev1(12345);
+
+		System.out.println(rev);
+	}
 }
 
 
@@ -48,6 +77,7 @@ class ReverseRecurOne
 		}
 		int rem=no%10;
 		rev=rev*10+rem;
+		
 		return rev(no=no/10,rev);
 	}
 	public static void main(String args[])
