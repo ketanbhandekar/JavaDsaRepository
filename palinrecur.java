@@ -3,7 +3,7 @@ import java.lang.*;
 import java.util.Scanner;
 
 class palinrecur
-{
+{							//Check the Dry-run
 	static void pal(int no)
 	{
 		if(no==0)
