@@ -27,3 +27,32 @@ class CountZeroRecursion
 		System.out.println(ans);
 	}
 }
+
+
+
+import java.io.*;
+import java.lang.*;
+
+class CoutZeroesRecursive
+{
+	public static void main(String[] args)
+	{
+		System.out.println(countZerosRec(10204));
+	}
+	public static int countZerosRec(int input){
+		if(input==0) //Just to handle the case when input=0
+		{
+			return 1;
+		}
+		if(input<10)//this is the actual base case
+		{
+			return 0;
+		}
+		else if(input%10==0)
+		{
+			return 1+countZerosRec(input/10);
+		}
+		return countZerosRec(input/10);
+
+	}
+}
