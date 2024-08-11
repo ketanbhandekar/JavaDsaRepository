@@ -17,7 +17,7 @@ class binarysearch
 		{
 			int mid=start+(end-start)/2;
 
-			if(target>arr[mid])			//if(arr[mid]>target)
+			if(target>arr[mid])			
 			{
 				start=mid+1;
 			}
