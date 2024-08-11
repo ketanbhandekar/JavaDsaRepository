@@ -9,6 +9,10 @@ class LinearRecur
 
 	static int search(int arr[],int target,int index)
 	{
+		if(index==arr.length-1)									//Traversing The Array
+		{
+			return -1;
+		}
 		if(arr[index]==target)
 		{
 			return index;
