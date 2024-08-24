@@ -18,9 +18,9 @@ class b extends k
 {
 	int id;
 
-	public void info()
+	public void info() 	//Overriding the methods in inheritance is must.
 	{
-		super.info();
+		super.info();	//accessing info method from parent/base class.
 
 		Scanner sc=new Scanner(System.in);
 
