@@ -36,4 +36,5 @@ class inheritance1
 	}
 }
 
-
+//In Inheritance a mechanism by which one object can acquire all the properties (i.e. data members) and behavior
+//(i.e. member functions or methods) of a parent object
