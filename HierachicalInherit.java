@@ -31,7 +31,7 @@ class D extends A
 	}
 }
 class HierachicalInherit			//Single Parent class inherited by many child classes.
-{
+{						//All classes can access the method of class A
 	public static void main(String args[])
 	{
 		B obj1=new B();
