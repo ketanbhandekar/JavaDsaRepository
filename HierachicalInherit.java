@@ -30,7 +30,7 @@ class D extends A
 		System.out.println("METHOD OF D");
 	}
 }
-class HierachicalInherit
+class HierachicalInherit			//Single Parent class inherited by many child classes.
 {
 	public static void main(String args[])
 	{
