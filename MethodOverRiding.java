@@ -15,7 +15,7 @@ class C extends P
 		System.out.println("HELLLLO");
 	}
 }
-class OverRiding								//child-class has same method as declared in parent class.
+class MethodOverRiding								//child-class has same method as declared in parent class.
 {
 	public static void main(String args[])
 	{
