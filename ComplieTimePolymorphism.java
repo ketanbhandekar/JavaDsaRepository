@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-class cal
+class cal	//Method Overloading- When a Class has multiple methods with the same name, but different parameters.
 {
 	public int add(int a,int b)
 	{
@@ -12,7 +12,7 @@ class cal
 		return a+b;
 	}
 }
-class ComplieTimePolymorphism
+class ComplieTimePolymorphism 			//Also Known as Static Polymorphism.		
 {
 	public static void main(String args[])
 	{
