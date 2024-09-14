@@ -16,5 +16,9 @@ class exception
 		{
 			System.out.println(e);
 		}
+		finally
+		{
+			System.out.println("THIS WILL ALWAYS EXCEUTE");
+		}
 	}
 }
