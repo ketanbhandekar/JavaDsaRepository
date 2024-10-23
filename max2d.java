@@ -1,5 +1,6 @@
 import java.io.*;
 import java.lang.*;
+import java.util.Arrays;
 
 class max2d
 {
@@ -25,8 +26,9 @@ class max2d
 					max=arr[row][col];
 				}
 			}
-
 		}
+		System.out.println(Arrays.deepToString(arr));
+
 		System.out.println("MAX: " +max);
 	}
 	public static void main(String args[])
