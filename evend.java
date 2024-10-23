@@ -13,8 +13,6 @@ class evend									//even digit
 
 		for(int i=0;i<arr.length;i++)
 		{
-			cnt=0;
-
 			while(arr[i]>0)
 			{
 				cnt++;						//counting the digits
